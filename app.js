@@ -43,7 +43,7 @@ Customer.insertMany(Customerarray,function(err){
 });
 
 app.get("/",function(req,res){
-    res.send("home");
+    res.render("home");
 });
 
 app.get("/transferhistoryinfo",(req,res) => {
