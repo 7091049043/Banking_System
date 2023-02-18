@@ -6,7 +6,7 @@ const path = require("path");
  app.use(express.urlencoded({extended: true}));
  app.use(express.static(path.join(__dirname,'/Public')));
 
- mongoose.connect("mongodb+srv://admin-ranjana:test123@cluster0.hqpog.mongodb.net/bank?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true});
+ mongoose.connect("mongodb+srv://adikashyap:gCfvQjx3cBiWd5P6@cluster0.4svt852.mongodb.net/?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true});
 
  const CustomerSchema = new mongoose.Schema ({
      accountnumber : Number,
