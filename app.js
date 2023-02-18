@@ -21,16 +21,16 @@ const Customer = mongoose.model("Customer",CustomerSchema);
 
 const Customerarray =[
 
- {accountnumber : 588378619  , name :  "Ranjana"  ,       email : "ranjana@yahoo.com"  , contact : 9899396219    , bankBalance :  117000 ,transations:[]},
-    {accountnumber : 588378620  , name :  "Riya"   ,       email :  "riya@gmail.com"     , contact :  7838561789       , bankBalance : 321900 ,transations:[]},
-    {accountnumber : 588378621   , name :   "Juhi"    ,    email : "juhi@gmail.com"       ,contact :  8875676712      , bankBalance :   765631 ,transations:[]},
-    {accountnumber:  588378622    , name :  "Swati"     ,   email : "swati@gmail.com"     , contact :   9988776655     , bankBalance : 565656 ,transations:[]},
-    {accountnumber:  588378623     , name :  "Anshu"   ,   email : "anshu@gmail.com"      , contact :    9080706034    , bankBalance : 453671 ,transations:[]},
-    {accountnumber:  588378624     , name :  "Nishu"   ,   email : "nishu@gmail.com"      , contact :  8505963421      , bankBalance : 1129090 ,transations:[]},
-  {accountnumber:  588378625    , name :  "Gyanwee"     ,   email : "gyanwee@gmail.com"      , contact :   7867342144     , bankBalance :  898989 ,transations:[]},
-   { accountnumber:   588378626     , name :  "Megha"     ,   email : "meghakatheriya@gmail.com"    , contact :     9988003215   , bankBalance :456371 ,transations:[]},
-  {  accountnumber:  588378627    , name :  "Saras"    ,   email : "saras@gmail.com"      , contact :    7657689765 , bankBalance :690000 ,transations:[] },
- {   accountnumber:  588378628      , name :  "Sneha"    ,   email : "sneha@gmail.com"      , contact :    9922312456    , bankBalance :   232323    ,transations:[]}
+ {accountnumber : 588378619  , name :  "Aditya"  ,       email : "adityakashyap@gmail.com"  , contact : 9899396    , bankBalance :  117000 ,transations:[]},
+    {accountnumber : 588378620  , name :  "Puja Sarmah"   ,       email :  "puja@gmail.com"     , contact :  7838561       , bankBalance : 321900 ,transations:[]},
+    {accountnumber : 588378621   , name :   "Abhigyan"    ,    email : "abhigyan@gmail.com"       ,contact :  8875676      , bankBalance :   765631 ,transations:[]},
+    {accountnumber:  588378622    , name :  "Niviksha"     ,   email : "niviksha@gmail.com"     , contact :   9988776     , bankBalance : 565656 ,transations:[]},
+    {accountnumber:  588378623     , name :  "Dev"   ,   email : "dev@gmail.com"      , contact :    9080706    , bankBalance : 453671 ,transations:[]},
+    {accountnumber:  588378624     , name :  "Nidhi"   ,   email : "nidhi@gmail.com"      , contact :  8505963      , bankBalance : 1129090 ,transations:[]},
+  {accountnumber:  588378625    , name :  "Renu"     ,   email : "renu@gmail.com"      , contact :   7867342    , bankBalance :  898989 ,transations:[]},
+   { accountnumber:   588378626     , name :  "Vivek"     ,   email : "vivek@gmail.com"    , contact :     9988003   , bankBalance :456371 ,transations:[]},
+  {  accountnumber:  588378627    , name :  "Neha"    ,   email : "neha@gmail.com"      , contact :    7657689 , bankBalance :690000 ,transations:[] },
+ {   accountnumber:  588378628      , name :  "Sanjiv"    ,   email : "sanjeev@gmail.com"      , contact :    9922312    , bankBalance :   232323    ,transations:[]}
 
 ];
 
