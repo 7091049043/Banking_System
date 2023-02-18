@@ -1,0 +1,27 @@
+<%- include("header") -%>
+  
+  <div class="card-transferinfocard" style="width: 19rem;">
+    <img class="card-img-top transfermoneyimg" src="/transfermoney.png" alt="Card image cap">
+    <div class="card-body"  >
+
+      <form class="" action="/transfermoney" method="post">
+        <h5 class="card-title"></h5>
+          <h4 class="card-text"> Enter sender and receiver details</h4>
+        <input class="card-content" type="text" name="transferfrom" placeholder="From Account no.">
+        <input class ="card-content" type="text" name="transferto" placeholder="To Account no.">
+        <input class="card-content" type="text" name="amount" placeholder="Amount ">
+        <button class="transferinfobtn btn btn-dark" type="submit" name="button">Pay Now</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="transaction" >
+  <form class="viewtransactionbtn" action="/transferhistoryinfo" method="get">
+    <button class="btn btn-dark" type="submit" name="button">View All Transactions</button>
+  </form>
+</div>
+
+
+
+
+<%- include("footer") -%>

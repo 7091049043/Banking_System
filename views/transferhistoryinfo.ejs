@@ -1,0 +1,18 @@
+<%- include("header") -%>
+
+
+
+<!-- view transations -->
+<div class="card-transferhistorycard col-6" style="width: 15rem;">
+  <img class="card-img-top transfermoneyimg" src="/history.jpg" alt="Card image cap">
+  <div class="card-body">
+
+    <form class="" action="/transferhistoryinfo" method="post">
+      <h5 class="card-title">Transaction History</h5>
+      <input class="card-content" type="text" name="accountnumber" placeholder="Enter Account no.">
+      <button class="transferinfobtn btn btn-dark" type="submit" name="button">View Transactions</button>
+    </form>
+  </div>
+</div>
+
+<%- include("footer") -%>
